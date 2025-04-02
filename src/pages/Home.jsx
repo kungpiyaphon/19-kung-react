@@ -16,15 +16,13 @@ const Home = () => {
       <h1 className="text-3xl font-bold mb-4">Generation Thailand <br />React - Assessment</h1>
       <button
         onClick={navigateUser}
-        className="px-4 py-2 bg-teal-500 text-white rounded-md hover:bg-teal-700 transition"
+        className="m-5 px-4 py-2 bg-teal-500 text-white rounded-md hover:bg-teal-700 transition"
       >
         User Home
       </button>
-      <br />
-      <br />
       <button
         onClick={navigateAdmin}
-        className="px-4 py-2 bg-teal-500 text-white rounded-md hover:bg-teal-700 transition"
+        className="m-5 px-4 py-2 bg-teal-500 text-white rounded-md hover:bg-teal-700 transition"
       >
         Admin Home
       </button>
